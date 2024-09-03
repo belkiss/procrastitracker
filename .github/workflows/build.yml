@@ -23,7 +23,7 @@ jobs:
         Remove-Item PT\*.ipdb
         Remove-Item PT\*.iobj
     - name: Create installer
-      uses: joncloud/makensis-action@v2.0
+      uses: joncloud/makensis-action@v4.1
       with:
         script-file: "pt.nsi"
         arguments: "/V3"
