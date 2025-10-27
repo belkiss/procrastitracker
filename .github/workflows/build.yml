@@ -28,7 +28,7 @@ jobs:
         script-file: "pt.nsi"
         arguments: "/V3"
     - name: upload build artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: ProcrastiTracker (installer)
         path: ProcrastiTracker_Setup.exe
